@@ -2,7 +2,7 @@
 title: "test collaboration"
 author: "Jesse Grigolite"
 date: "2023-05-03"
-output: pdf_document
+output: docx
 ---
 
 ```{r setup, include=FALSE}
@@ -18,3 +18,4 @@ ggplot(data = mtcars, aes(x = cyl, y = mpg)) +
   geom_point()
 ```
 
+hopefully everyone can get issues sorted
