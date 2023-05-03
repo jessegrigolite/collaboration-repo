@@ -1,0 +1,20 @@
+---
+title: "test collaboration"
+author: "Jesse Grigolite"
+date: "2023-05-03"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+This is a test collaboration.
+```{r}
+library(tidyverse)
+```
+
+```{r}
+ggplot(data = mtcars, aes(x = cyl, y = mpg)) +
+  geom_point()
+```
+
